@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <RootNamespace>Atata_Reqnroll_NUnit_IntegrationTests</RootNamespace>
+    <RootNamespace>Atata.Reqnroll.NUnit.IntegrationTests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

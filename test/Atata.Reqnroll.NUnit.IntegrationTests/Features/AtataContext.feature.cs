@@ -11,7 +11,7 @@
 #region Designer generated code
 #pragma warning disable
 using Reqnroll;
-namespace Atata_Reqnroll_NUnit_IntegrationTests.Features
+namespace Atata.Reqnroll.NUnit.IntegrationTests.Features
 {
     
     

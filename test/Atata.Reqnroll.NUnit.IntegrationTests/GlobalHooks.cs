@@ -1,4 +1,4 @@
-﻿namespace Atata_Reqnroll_NUnit_IntegrationTests;
+﻿namespace Atata.Reqnroll.NUnit.IntegrationTests;
 
 [Binding]
 public sealed class GlobalHooks

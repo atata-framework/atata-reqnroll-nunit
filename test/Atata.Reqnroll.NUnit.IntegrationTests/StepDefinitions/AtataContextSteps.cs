@@ -1,6 +1,4 @@
-﻿using Atata_Reqnroll_NUnit_IntegrationTests.Features;
-
-namespace Atata_Reqnroll_NUnit_IntegrationTests;
+﻿namespace Atata.Reqnroll.NUnit.IntegrationTests;
 
 [Binding]
 public sealed class AtataContextSteps
