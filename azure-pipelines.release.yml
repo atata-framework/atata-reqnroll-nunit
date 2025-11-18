@@ -8,7 +8,7 @@ jobs:
 - job: PublishPackage
   displayName: Publish package to NuGet
   pool:
-    vmImage: windows-latest
+    vmImage: ubuntu-latest
   steps:
   - task: NuGetToolInstaller@1
     displayName: Install NuGet tool
