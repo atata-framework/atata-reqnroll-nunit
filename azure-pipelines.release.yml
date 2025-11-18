@@ -1,5 +1,5 @@
 variables:
-  netSdkVersion: '9.x'
+  netSdkVersion: '9.0.306'
 
 trigger: none
 pr: none
@@ -8,7 +8,7 @@ jobs:
 - job: PublishPackage
   displayName: Publish package to NuGet
   pool:
-    vmImage: ubuntu-latest
+    vmImage: windows-latest
   steps:
   - task: NuGetToolInstaller@1
     displayName: Install NuGet tool
