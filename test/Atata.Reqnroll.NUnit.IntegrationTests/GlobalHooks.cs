@@ -12,10 +12,12 @@ public sealed class GlobalHooks
         ReqnrollAtataContextSetup.TearDownFeature(featureContext);
 
     [BeforeScenario]
+    [SuppressMessage("Performance", "CA1822:Mark members as static")]
     public void SetUpScenario(FeatureContext featureContext, ScenarioContext scenarioContext) =>
         ReqnrollAtataContextSetup.SetUpScenario(featureContext, scenarioContext, ConfigureScenarioAtataContext);
 
     [AfterScenario]
+    [SuppressMessage("Performance", "CA1822:Mark members as static")]
     public void TearDownScenario(ScenarioContext scenarioContext) =>
         ReqnrollAtataContextSetup.TearDownScenario(scenarioContext);
 
