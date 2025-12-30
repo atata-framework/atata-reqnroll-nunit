@@ -7,7 +7,7 @@
 
 **Atata.Reqnroll.NUnit** is a C#/.NET library that integrates [Atata](https://github.com/atata-framework/atata) with Reqnroll+NUnit.
 
-*The package targets .NET 8.0.*
+*The package targets .NET 8.0 and .NET Framework 4.6.2.*
 
 ## Community
 

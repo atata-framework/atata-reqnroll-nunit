@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFrameworks>net8.0;net462</TargetFrameworks>
     <Version>4.0.0-beta.5</Version>
     <Description>
 C#/.NET library that integrates Atata with Reqnroll+NUnit.
 
-The package targets .NET 8.0.
+The package targets .NET 8.0 and .NET Framework 4.6.2.
     </Description>
     <RepositoryUrl>https://github.com/atata-framework/atata-reqnroll-nunit</RepositoryUrl>
     <PackageId>Atata.Reqnroll.NUnit</PackageId>
