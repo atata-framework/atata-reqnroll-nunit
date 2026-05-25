@@ -23,7 +23,7 @@ Or using Package Manager:
 Install-Package Atata.Reqnroll.NUnit
 ```
 
-### Dependencies
+## Dependencies
 
 - [Atata](https://www.nuget.org/packages/Atata)
 - [Atata.NUnit](https://www.nuget.org/packages/Atata.NUnit)
